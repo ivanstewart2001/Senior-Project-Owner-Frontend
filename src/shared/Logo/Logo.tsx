@@ -38,7 +38,7 @@ const Logo: React.FC<LogoProps> = ({
           priority
         />
       ) : (
-        "Senior Project - Consumer"
+        "Senior Project - Owner"
       )}
       {imgLight && (
         <Image
