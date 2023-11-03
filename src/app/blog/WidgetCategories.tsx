@@ -21,10 +21,11 @@ const WidgetCategories: FC<WidgetCategoriesProps> = ({
       <div className="flow-root">
         <div className="flex flex-col divide-y divide-neutral-200 dark:divide-neutral-700">
           {[1, 1, 1, 1, 1, 1].map((_, index) => (
-            <CardCategory1
-              className="p-4 xl:p-5 hover:bg-neutral-200 dark:hover:bg-neutral-700"
-              key={index}
-            />
+            // <CardCategory1
+            //   className="p-4 xl:p-5 hover:bg-neutral-200 dark:hover:bg-neutral-700"
+            //   key={index}
+            // />
+            <div key={index}></div>
           ))}
         </div>
       </div>
